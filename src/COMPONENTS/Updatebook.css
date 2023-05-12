@@ -1,0 +1,32 @@
+  .update-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .update-card {
+    width: 18rem;
+    margin-top: 50px;
+    text-align: center;
+    height: 24rem;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .update-card input {
+    
+   
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ 
+  

@@ -1,0 +1,9 @@
+.form-group{
+    padding: 10px;
+    text-align: center;
+    border-radius: 1rem;
+}
+.form-control{
+    text-align: center;
+    margin-top: 1rem;
+}

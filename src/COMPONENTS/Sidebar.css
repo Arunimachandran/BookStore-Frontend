@@ -1,0 +1,67 @@
+/* 
+
+   .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    background-color:black;
+    padding: 20px;
+  }
+  
+  .links {
+    margin-top: 40px;
+  }
+  
+  .BookLink {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+  }
+  
+  .BookLink:hover {
+    color: #007bff;
+  } */
+  
+
+
+  .sidebar {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3f3f3f;
+    z-index: 1;
+    padding-top: 50px;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .heading{
+    text-align: center;
+    color: wheat;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .BookLink {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .BookLink:hover {
+    background-color: #444;
+  }
+  
+  .links > .BookLink:hover {
+    background-color: #555;
+  }
+  

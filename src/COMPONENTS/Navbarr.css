@@ -1,0 +1,10 @@
+.nav{
+    width: 100%;
+}
+
+.background{
+    width: 100%;
+    background-image:url('https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80');
+    background-size: contain;
+    height: 100vh;
+}
